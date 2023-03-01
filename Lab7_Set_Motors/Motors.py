@@ -15,10 +15,10 @@ def motors_speed(left_wheel_speed,right_wheel_speed):
     left_wheel_speed = left_wheel_speed if left_wheel_speed > 0 else left_wheel_speed * -1
     right_wheel_speed = right_wheel_speed if right_wheel_speed > 0 else right_wheel_speed * -1
 
-    if left_wheel_speed > 100 or left_wheel_speed < -100:
-        raise ValueError('speed error,-100~100')
-    if right_wheel_speed > 100 or right_wheel_speed < -100:
-        raise ValueError('speed error,-100~100')
+    #if left_wheel_speed > 100 or left_wheel_speed < -100:
+    #    raise ValueError('speed error,-100~100')
+    #if right_wheel_speed > 100 or right_wheel_speed < -100:
+    #    raise ValueError('speed error,-100~100')
 
 
 
