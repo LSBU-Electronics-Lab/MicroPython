@@ -1,8 +1,12 @@
 from microbit import *
 import utime
-from microbit import pin8, pin12
+import time
+from microbit import pin13, pin8, pin12
 trigger_pin = pin8
 echo_pin = pin12
+echo_timeout_us = 5
+distance_cm= 100
+
 
 def get_distance():
 
@@ -10,14 +14,16 @@ def get_distance():
     trigger_pin.write_digital(1)
     utime.sleep_us(10)
     trigger_pin.write_digital(0)
-  
+    s = utime.ticks_ms()
     while echo_pin.read_digital() == 0:
-         pass
+
+        pass
 
     if echo_pin.read_digital()==1:
         start = utime.ticks_us()
         while echo_pin.read_digital() == 1:
-              pass
+
+            pass
 
         finish = utime.ticks_us()
         pulse_time = finish - start
@@ -27,17 +33,16 @@ def get_distance():
     # 0.034320 cm/us
 
     distance = pulse_time * 0.034 / 2
+
     return round(distance)
 
 while(True):
 
-    #while distance_cm >10:
 
         distance_cm = get_distance()
         sleep(100)
 
         print (distance_cm)
 
-   # distance_cm =100
 
 
