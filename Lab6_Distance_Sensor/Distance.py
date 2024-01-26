@@ -1,6 +1,5 @@
 from microbit import *
 import utime
-import time
 from microbit import pin8, pin12
 trigger_pin = pin8
 echo_pin = pin12
