@@ -10,7 +10,7 @@ def get_distance():
     trigger_pin.write_digital(1)
     utime.sleep_us(10)
     trigger_pin.write_digital(0)
-    s = utime.ticks_ms()
+  
     while echo_pin.read_digital() == 0:
          pass
 
