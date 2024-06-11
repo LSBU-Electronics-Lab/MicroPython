@@ -1,8 +1,16 @@
 # Cute Bot Pin Descriptions
 
-The Cute Bot smart car uses various pins on the micro:bit to interface with its sensors, motors, and other components. Here is a detailed breakdown of the pin assignments for each component:
 
-### Micro:bit Pin Assignments
+![20240321_125413](https://github.com/LSBU-Electronics-Lab/MicroPython/assets/126675512/76c79ed4-61e1-433a-b154-22ab82ddf1fe)
+
+
+### Objective of the Labs
+
+The objective of the labs is to make the robot navigate a maze using the different sensors available. By utilizing the ultrasonic sensor, line-tracking sensors, and other components, the robot will be able to detect and respond to its environment to successfully find its way through the maze.
+
+---
+
+### Specifications:
 
 1. **Ultrasonic Sensor (HC-SR04)**
    - **Trigger Pin**: P1
