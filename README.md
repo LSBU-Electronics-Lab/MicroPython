@@ -68,5 +68,3 @@ The objective of the labs is to make the robot navigate a maze using the differe
   - **Function**: General purpose pins that can be used for various inputs and outputs, depending on the project requirements.
 
 ---
-
-For more detailed information, you can visit the [Elecfreaks Cutebot page](https://www.elecfreaks.com/learn-en/microbitKit/smart_cutebot/cutebot_car.html).
