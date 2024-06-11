@@ -8,6 +8,9 @@
 
 The objective of the labs is to make the robot navigate a maze using the different sensors available. By utilizing the ultrasonic sensor, line-tracking sensors, and other components, the robot will be able to detect and respond to its environment to successfully find its way through the maze.
 
+# WIKI
+For more detailed tutorials and resources, refer to the [LSBU Electronics Lab Wiki](https://github.com/LSBU-Electronics-Lab/MicroPython/wiki).
+
 ---
 
 ### Specifications:
